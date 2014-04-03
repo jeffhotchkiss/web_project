@@ -36,11 +36,12 @@ p {
 	text-align: right;
 	width: 50px;
 	position: absolute;
-	top: 27px;
-	left: 431px;
+	top: 5px;
+	left: -78px;
 }
 
 .post {
+	position: relative;
 	background-color: white;
 	border: 1px solid black;
 	padding: 5px 5px;
