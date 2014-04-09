@@ -27,6 +27,20 @@ p {
 	margin: 0 auto auto 0;
 }
 
+
+.header {
+	background-color: #3A3787;
+	margin: 30px auto 30px auto;
+	width: 150%;
+	padding: 20px 20px;
+}
+
+.header p {
+	font: 48px Verdana, Arial, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
 .date {
 	font: 11px Verdana, Arial, sans-serif;
 	background-color: #B7E7E8;
@@ -36,7 +50,7 @@ p {
 	text-align: right;
 	width: 50px;
 	position: absolute;
-	top: 5px;
+	top: 7px;
 	left: -78px;
 }
 
