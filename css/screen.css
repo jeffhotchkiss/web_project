@@ -46,6 +46,68 @@ header {
 	width: 600px;
 }
 
+.avatar {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: #ffffff;
+	border: 20px solid black;
+	border-color: #3A3787;
+	float: right;
+	left: 140px;
+	top: -100px;
+}
+
+.facebook {
+	position: relative;
+	width: 32px;
+	height: 32px;
+	float: right;
+	left: 350px;
+	top: -45px;
+	background-color: #ffffff;
+}
+
+.twitter {
+	position: relative;
+	width: 32px;
+	height: 32px;
+	float: right;
+	left: 425px;
+	top: -45px;
+	background-color: #ffffff;
+}
+
+.instagram {
+	position: relative;
+	width: 32px;
+	height: 32px;
+	float: right;
+	left: 500px;
+	top: -45px;
+	background-color: #ffffff;
+}
+
+.google {
+	position: relative;
+	width: 32px;
+	height: 32px;
+	float: right;
+	left: 575px;
+	top: -45px;
+	background-color: #ffffff;
+}
+
+.pinterest {
+	position: relative;
+	width: 32px;
+	height: 32px;
+	float: right;
+	left: 650px;
+	top: -45px;
+	background-color: #ffffff;
+}
+
 h1 {
 	font: 48px Verdana, Arial, sans-serif;
 	font-weight: bold;
