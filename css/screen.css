@@ -36,14 +36,16 @@ p {
 
 header {
 	background-color: #3A3787;
-	margin: 30px auto 30px auto;
+	margin: 30px auto 60px;
 	width: 100%;
 	padding: 20px 0;
+	position: relative;
 }
 
 .header {
 	margin: 0 auto;
 	width: 600px;
+	position: relative;
 }
 
 .avatar {
@@ -53,59 +55,19 @@ header {
 	background-color: #ffffff;
 	border: 20px solid black;
 	border-color: #3A3787;
-	float: right;
-	left: 140px;
-	top: -100px;
+	position: absolute;
+	right: -140px;
+	top: -40px;
 }
 
-.facebook {
-	position: relative;
-	width: 32px;
-	height: 32px;
-	float: right;
-	left: 350px;
-	top: -45px;
-	background-color: #ffffff;
+.social {
+	position: absolute;
+	right: -380px;
+	top: 20px;
 }
 
-.twitter {
-	position: relative;
-	width: 32px;
-	height: 32px;
-	float: right;
-	left: 425px;
-	top: -45px;
-	background-color: #ffffff;
-}
-
-.instagram {
-	position: relative;
-	width: 32px;
-	height: 32px;
-	float: right;
-	left: 500px;
-	top: -45px;
-	background-color: #ffffff;
-}
-
-.google {
-	position: relative;
-	width: 32px;
-	height: 32px;
-	float: right;
-	left: 575px;
-	top: -45px;
-	background-color: #ffffff;
-}
-
-.pinterest {
-	position: relative;
-	width: 32px;
-	height: 32px;
-	float: right;
-	left: 650px;
-	top: -45px;
-	background-color: #ffffff;
+.social a {
+	padding: 0 4px;
 }
 
 h1 {
